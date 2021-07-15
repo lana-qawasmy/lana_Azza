@@ -1,8 +1,5 @@
 function greeting(name,gender){
-let pref ='Mr';
-if(gender == 'female'){
-pref = 'Mrs' ;
-}
+gender='female'?pref='Mrs' : pref='Mr' ;
 console.log('welcome'+ pref + name) ;
 
 }
